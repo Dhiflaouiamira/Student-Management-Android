@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/notesTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mes notes"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mathNoteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mathématiques: 17/20" />
+
+    <TextView
+        android:id="@+id/scienceNoteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sciences: 15/20" />
+
+    <TextView
+        android:id="@+id/historyNoteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Histoire: 14/20" />
+
+    <TextView
+        android:id="@+id/averageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Moyenne: 15.33/20"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/admissionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Admis"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#00FF00" />
+
+</LinearLayout>
